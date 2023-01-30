@@ -28,7 +28,7 @@ setuptools.setup(
     ],
     python_requires='>=3.7',
     install_requires=[
-        'antlr4-python3-runtime==4.8',
+        'antlr4-python3-runtime>=4.8',
         'numpy>=1.19.0'
     ],
     py_modules=['zemberek'],
